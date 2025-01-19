@@ -1,0 +1,21 @@
+: root {
+  --black: #121212;
+  --white: #fafafa;
+}
+
+body {
+  background: rgb(42, 101, 101);
+}
+
+h1 {
+  font-size: 4rem;
+  font-family: "Raleway";
+}
+
+h2 {
+  font-size: 3rem;
+  font-family: "Raleway";
+}
+
+p {
+}
