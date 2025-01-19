@@ -1,10 +1,19 @@
-: root {
+:root {
   --black: #121212;
+  --navbar-color: #222222;
+  --dark-gray: #383838;
+  --light-gray: #6d6d6d;
+  --teal: rgb(94 234 212);
+  --hover-color: #85dcdb;
   --white: #fafafa;
+  --desktop: 768px;
+  --mobile: 500px;
 }
 
 body {
   background: rgb(42, 101, 101);
+
+  color: var(--white);
 }
 
 h1 {
@@ -17,5 +26,27 @@ h2 {
   font-family: "Raleway";
 }
 
-p {
+p{
+  font-family: "Poppins";
+  font-size: 1.1rem;
+  line-height: 1.75rem;
+  margin: 0; 
+}
+
+.section {
+  z-index: 1;
+  padding: 3rem;
+  background-color: var(--dark-gray);
+  border-radius: 20px;
+  border: solid 2px var(--light-gray);
+  margin-bottom: 1rem;
+}
+
+.section-header {
+  font-family: "Raleway";
+  width: max-content;
+  margin-top: 0px;
+  border-bottom: 3px solid var(--white);
+  border-radius: 3px;
+  padding-bottom: 1rem;
 }
