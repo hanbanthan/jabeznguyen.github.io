@@ -10,10 +10,17 @@
   --mobile: 500px;
 }
 
+
+
 body {
   background: rgb(42, 101, 101);
 
   color: var(--white);
+}
+
+.App {
+  margin: auto;
+  max-width: var(--desktop);
 }
 
 h1 {
